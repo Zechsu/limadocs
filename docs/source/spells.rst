@@ -1,8 +1,8 @@
-LIMA Mudlib spellmaking
-=======================
+Spellmaking
+===========
 
 Inheritables
-************
+============
 
 Depending on the usage, there are only two types of spell inheritables. ``SPELL`` and ``COMBAT_SPELL``. The difference between those is that ``COMBAT_SPELL`` is a source of damage and are used to inflict damage. In either case, all spells must inherit ``SPELL`` in order to work. Only if they're supposed to do damage, should they also inherit ``COMBAT_SPELL``.
 
