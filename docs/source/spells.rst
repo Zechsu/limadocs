@@ -7,7 +7,8 @@ Inheritables
 Depending on the usage, there are only two types of spell inheritables. ``SPELL`` and ``COMBAT_SPELL``. The difference between those is that ``COMBAT_SPELL`` is a source of damage and are used to inflict damage. In either case, all spells must inherit ``SPELL`` in order to work. Only if they're supposed to do damage, should they also inherit ``COMBAT_SPELL``.
 
 SPELL
-=====
+*****
+
 
 A most simple spell will consist of 2 functions. ``setup()`` and ``cast_spell()``. Normally ``setup()`` should only set the name of the spell using ``set_spell_name(string s)`` and ``cast_spell(object ob, object reagent)`` will contain the logic which is executed when the spell is cast.
 
@@ -41,3 +42,6 @@ cast_spell(object target, object reagent)
 -----------------------------------------
 
 ``cast_spell(object target, object reagent)`` contains all the logic of what happens when the spell is cast.
+
+COMBAT_SPELL
+************
