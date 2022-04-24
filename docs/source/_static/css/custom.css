@@ -1,0 +1,13 @@
+dl.class em:not([class])::before {
+    content: "\a\20\20\20\20\20\20\20\20\20\20\20\20\20\20\20\20";
+    white-space: pre;
+}
+
+dl.class em:not([class]):last-of-type::after {
+    content: "\a";
+    white-space: pre;
+}
+
+dl.class > dt:first-of-type {
+    display: block !important;
+}
