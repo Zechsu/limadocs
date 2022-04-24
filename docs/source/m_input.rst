@@ -1,7 +1,10 @@
 m_input
 =======
 
-.. c:function:: protected varargs nomask void input_one_arg( string arg_prompt, function fp, string arg )
+.. c:function:: protected varargs nomask void input_one_arg(
+  string arg_prompt,
+  function fp,
+  string arg)
 
 Get a single argument and call a given function pointer with it.  If the
 argument isn't present (arg == 0), then the prompt is used to ask for
