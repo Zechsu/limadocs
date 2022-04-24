@@ -5,12 +5,8 @@
 }
 
 .sig.sig-object.c {
-    display: table;
-    margin: 6px 0;
-    margin-top: 6px;
-    font-size: 90%;
-    position: relative;
     border-top: none !important;
+    padding: 0px !important;
 }
 
 .sig.sig-object.c:nth-child(n+2)::before {
